@@ -1,0 +1,4 @@
+# Excluded from the robot package (rcc matches plain names, not paths)
+work-items-out
+output
+__pycache__

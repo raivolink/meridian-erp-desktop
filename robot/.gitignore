@@ -1,0 +1,8 @@
+output/
+temp/
+.rpa/
+.idea/
+.vscode
+__pycache__/
+*.pyc
+devdata/work-items-out/

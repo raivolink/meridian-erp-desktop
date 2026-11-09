@@ -1,0 +1,8 @@
+{
+  "RC_WORKITEM_ADAPTER": "FileAdapter",
+  "RC_WORKITEM_INPUT_PATH": "devdata/work-items-out/produce/work-items.json",
+  "RC_WORKITEM_OUTPUT_PATH": "devdata/work-items-out/process/work-items.json",
+  "RC_VAULT_SECRET_MANAGER": "FileSecrets",
+  "RC_VAULT_SECRETS_FILE": "devdata/vault.json",
+  "MERIDIAN_STEP_DELAY": "0"
+}

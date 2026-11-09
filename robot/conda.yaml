@@ -1,0 +1,14 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml
+# Tip: Adding a link to the release notes of the packages helps maintenance and security.
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12.16                # https://pyreadiness.org/3.12
+  - uv=0.13.6                     # https://pypi.org/project/uv
+  - openjdk=25.0.2                # Java runtime for Meridian ERP, incl. the Java Access Bridge DLL
+  - pip:
+    - robocorp==3.1.6             # https://pypi.org/project/robocorp
+    - rpaframework==33.0.2        # https://rpaframework.org/releasenotes.html (RPA.JavaAccessBridge)

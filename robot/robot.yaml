@@ -1,0 +1,24 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyaml
+
+tasks:
+  Produce Cases:
+    shell: python -m robocorp.tasks run tasks.py -t produce_cases
+  Process Cases:
+    shell: python -m robocorp.tasks run tasks.py -t process_cases
+  Start Meridian ERP:
+    shell: java -jar meridian/MeridianErp.jar
+
+environmentConfigs:
+  - environment_windows_amd64_freeze.yaml
+  - conda.yaml
+
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
+  - .robotignore
